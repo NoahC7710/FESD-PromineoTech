@@ -1,0 +1,71 @@
+html{
+    background-color: rgb(134, 134, 177);
+}
+.textCenter{
+    text-align: center;
+}
+.bigFont{
+    font-size: xx-large;
+}
+.xlFont{
+    font-size: x-large;
+}
+.smallFont{
+    font-size: large;
+}
+
+
+.div{
+    text-align: center;
+}
+#box-model{
+    padding: 50px;
+    margin: 10px;
+    background-color: rgb(134, 134, 177);
+}
+
+table{
+    border-collapse: collapse;
+}
+th, td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    color: black;
+}
+tr:hover{
+    background-color: gray;
+}
+.imgControl{
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0, 0.5);
+}
+.imgControlEnhanced{
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 20px 20px 2px 1px rgb(0, 0, 0, 0.5);
+}
+.increasedMargin{
+    margin: 1rem 20rem;
+    font-size: x-large;
+}
+
+/* h1 {
+    font-size: xx-large;
+    color:black;
+    text-shadow: 2px 2px 2px 1px black;
+    
+} */
+div a{
+    color: black;
+    border-style: groove ;
+    border-width: 2px;
+    border-color: black;  
+}
+
+/* p {
+    font-size: small;
+    border-style: solid;
+    border-width: 2px; */
+/* } */
