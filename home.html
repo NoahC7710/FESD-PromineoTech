@@ -1,30 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body class="textCenter">
-    <h1 class="bigFont">Community Showcase LLC</h1>
-    <div>
-        <a class="smallFont" href ="home.html">Home</a>
-        <a class="smallFont" href ="about.html">About</a>
-        <a class="smallFont" href ="community-spotlight.html">Community Spotlight</a>
-        <a class="smallFont" href ="contact.html">Contact Us</a>
-    </div>
-    <div class="div">
-        <div id="box-model">
-           
-        </div>
-    </div>
-    <img class="imgControl" src="https://thumbs.dreamstime.com/b/gardeners-planting-flowers-park-new-green-88185959.jpg" height="400px" /> <img class="imgControl" src="https://www.marylandmatters.org/wp-content/uploads/2023/05/2023_may24_treeplanting_gunviolence1-scaled-1024x683.jpg" height="400px">
-    <p class="smallFont">Local community members helping to plant fresh flowers and trees in their local parks</p>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
     
+</head>
+<body class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">
+    <h1 class="text-center"> M&N Window Cleaning and Home Services LLC</h1>
+    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand fst-italic" href="home.html"> M&N Window Cleaning</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+         aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link"href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quote.html">Get your Quote!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us!</a>
+            </ul>
+        </div>
+    
+    </nav>
+    <div class="text-center container-fluid ">
+        <h3>Services</h3>
+        <ul class="list-group list-group-horizontal row">
+            <li class="list-group-item col-sm-2">Window Cleaning</li>
+            <li class="list-group-item col-sm-2">Pressure Washing</li>
+            <li class="list-group-item col-sm-2">Gutter Cleaning</li>
+            <li class="list-group-item col-sm-2">Blind Cleaning</li>
+            <li class="list-group-item col-sm-2">Sill Cleaning</li>
+            <li class="list-group-item col-sm-2">Fan/Light Fixture Cleaning</li>
+        </ul>
+    </div>
 </body>
-
 </html>

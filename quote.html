@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+</head>
+<body class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">
+    <h2 class="text-center"> Get Your Personal Quote Now</h2>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand fst-italic" href="home.html"> M&N Window Cleaning</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+       aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link"href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="quote.html">Get your Quote!</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us!</a>
+          </ul>
+      </div>
+  </nav>
+  <form class="container-fluid">
+    <input class="col-5" type="text" name="firstName" placeholder="First Name"> 
+    <input class="col-5" type="text" name="lastName" placeholder="Last Name"> <br>
+    <input class="col-5" type="text" name="emailAddress" placeholder="Email Address">
+    <input class="col-5" type="text" name="phoneNumber" placeholder="Phone Number"> <br>
+    <input class="col-5" type="text" name="address" placeholder="Address for work to be completed">
+    <input class="col-5" type="text" name="servicesRequested" placeholder="Services to be quoted"> <br>
+    <input class="col-5" type="text" name="paneCount" placeholder="Amount of Panes to be cleaned(if not Applicable - 0)">
+    <input class="col-5" type="text" name="pressureWashLocation" placeholder="Which surface(s) to be pressure washed(if not Applicable NA)"> <br>
+    <input class="col-5" type="text" name="gutterFootage" placeholder="Approximate Gutter Length in Ft."> <br>
+    <input class="col-5" type="submit" value="Submit">
+</form>
+</body>
+</html>
