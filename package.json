@@ -1,14 +1,14 @@
 {
-  "name": "week-11",
+  "name": "week-12-2",
   "version": "1.0.0",
   "description": "",
-  "main": "week-11.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node": "^20.2.0"
+    "bootstrap": "^5.3.0"
   }
 }
